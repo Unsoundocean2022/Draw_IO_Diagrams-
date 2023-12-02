@@ -1,26 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2023-12-02T16:53:06.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" etag="RvRmyj3uMWnDpWQZodjR" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-02T17:22:13.102Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:120.0) Gecko/20100101 Firefox/120.0" etag="2SvxIYmzCzntxJgNRc4W" version="22.1.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1283" dy="823" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
+    <mxGraphModel dx="1207" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#114B5F" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="i8lx4pk_joio9D1kleBG-0" value="Bind9 (Ubuntu Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="214" y="81.5" width="71" height="75" as="geometry" />
+          <mxGeometry x="610" y="350" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iZop7oHnddtK1iadXr_W-0" value="Wazuh Manager (Ubuntu Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="238" width="71" height="75" as="geometry" />
+        <mxCell id="iZop7oHnddtK1iadXr_W-0" value="Wazuh Manager (Ubuntu Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="604" y="516" width="71" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="iZop7oHnddtK1iadXr_W-1" value="Windows DC 01 (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="417" y="81.5" width="71" height="75" as="geometry" />
+        <mxCell id="iZop7oHnddtK1iadXr_W-1" value="Windows DC 01 (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="795.5" y="350" width="70" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="iZop7oHnddtK1iadXr_W-2" value="Windows DC 02 (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="409" y="238" width="71" height="75" as="geometry" />
+        <mxCell id="iZop7oHnddtK1iadXr_W-2" value="Windows DC 02 (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="795" y="516" width="71" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="iZop7oHnddtK1iadXr_W-3" value="AD Manager Plus (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="81.5" width="71" height="75" as="geometry" />
+        <mxCell id="iZop7oHnddtK1iadXr_W-3" value="AD Manager Plus (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="795" y="689" width="71" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="iZop7oHnddtK1iadXr_W-4" value="AD Manager Plus (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="238" width="71" height="75" as="geometry" />
+        <mxCell id="2ongybafG7wun1r7vfKn-0" value="pFsense" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="107" y="182" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-1" value="Proxmox 02" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="121.5" y="511" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-2" value="K3S Server" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-3" value="K3S Agent" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="475" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-4" value="K3S Server" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="337" y="516" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-5" value="K3S Agent" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="516" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-6" value="K3S Server" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="337" y="689" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-7" value="K3S Agent" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="689" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-8" value="Proxmox 01" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="350" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-9" value="Proxmox 03" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="121.5" y="673" width="71" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="52" y="473" as="sourcePoint" />
+            <mxPoint x="1120" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2ongybafG7wun1r7vfKn-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="51" y="643" as="sourcePoint" />
+            <mxPoint x="1119" y="635" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
