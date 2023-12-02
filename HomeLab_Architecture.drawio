@@ -22,9 +22,6 @@
         <mxCell id="iZop7oHnddtK1iadXr_W-4" value="AD Manager Plus (Windows Server)" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="620" y="238" width="71" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="UuFZeWKt9-e9n4YQ5i9r-4" value="&lt;span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;UniFI FW &lt;br&gt;with Public IP&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="fontColor=#E4FDE1;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#F45B69;strokeColor=#028090;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="1" vertex="1">
-          <mxGeometry x="104" y="160" width="100" height="100" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
