@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Workflow Diagram">
+    <mxGraphModel dx="1008" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Computer -->
+        <mxCell id="2" value="Computer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="20" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- API Call to Azure DevOps -->
+        <mxCell id="3" value="API Call to Azure DevOps" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Azure DevOps Cloud -->
+        <mxCell id="4" value="Azure DevOps" style="cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="120" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Data Returned -->
+        <mxCell id="5" value="Data Returned" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Process Data -->
+        <mxCell id="6" value="Process Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Compare to 5 Other Computers -->
+        <mxCell id="7" value="Compare to 5 Other Computers" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="540" width="200" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="8" value="Computer 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="10" y="20" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="9" value="Computer 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="110" y="20" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="10" value="Computer 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="10" y="70" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" value="Computer 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="110" y="70" width="80" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" value="Computer 5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7">
+          <mxGeometry x="60" y="120" width="80" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- Send Email -->
+        <mxCell id="13" value="Send Email" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="680" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Connections -->
+        <mxCell id="14" edge="1" source="2" target="3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" edge="1" source="3" target="4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" edge="1" source="4" target="5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="17" edge="1" source="5" target="6" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="18" edge="1" source="6" target="7" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="19" edge="1" source="7" target="13" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
